@@ -1,0 +1,15 @@
+grid.color: 777777
+
+lines.markersize: 9
+lines.markeredgewidth: 1
+lines.linewidth: 1.2
+
+legend.numpoints: 1
+legend.fontsize: small
+legend.frameon: False
+
+font.size: 15.0
+font.family: serif
+font.serif: cmr10
+text.usetex: True
+xtick.major.pad: 6
