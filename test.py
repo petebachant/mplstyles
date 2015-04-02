@@ -1,8 +1,19 @@
 #!/usr/bin/env python
 
 import matplotlib.pyplot as plt
+import numpy as np
 
 plt.style.use("./Arial.mplstyle")
-plt.plot([1, 2, 3])
-plt.show()
 
+data = np.linspace(0, 1)
+
+for n in range(8):
+    plt.plot(data + 0.2*n, label="Line {}".format(n))
+
+
+plt.xlabel("$x$-label")
+plt.ylabel("$y$-label")
+plt.title("Title $f = ma$")
+plt.grid(True)
+plt.legend(loc="best")
+plt.show()
