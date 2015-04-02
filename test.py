@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.style.use("./Arial.mplstyle")
+plt.style.use("./arial.mplstyle")
 
 data = np.linspace(0, 1)
 
