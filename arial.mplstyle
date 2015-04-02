@@ -1,3 +1,5 @@
+axes.color_cycle: k, b, g, r, c, m, y 
+
 grid.color: 777777
 
 lines.markersize: 9
