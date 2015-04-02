@@ -1,0 +1,16 @@
+axes.color_cycle: k, b, g, r, c, m, y 
+
+grid.color: 777777
+
+lines.markersize: 9
+lines.markeredgewidth: 1
+lines.linewidth: 1.2
+
+legend.numpoints: 1
+legend.fontsize: small
+legend.frameon: False
+
+font.size: 15.0
+font.serif: Times New Roman
+font.family: serif
+xtick.major.pad: 6
