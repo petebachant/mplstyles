@@ -13,8 +13,7 @@ import matplotlib
 if sys.argv[1] == "install":
     configdir = matplotlib.get_configdir()
     styledir = os.path.join(configdir, "stylelib")
-    stylelist = ["arial", "latex", "ggplot-mod", "times"]
-    stylelist = [s + ".mplstyle" for s in stylelist]
+    stylelist = [f for f in os.listdir("./") if f.split(".")[-1] == "mplstyle"]
     if not os.path.isdir(styledir):
         os.makedirs(styledir)
     for s in stylelist:
