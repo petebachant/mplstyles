@@ -16,7 +16,7 @@ if sys.argv[1] == "install":
     stylelist = ["arial", "latex", "ggplot-mod", "times"]
     stylelist = [s + ".mplstyle" for s in stylelist]
     if not os.path.isdir(styledir):
-        os.makdirs(styledir)
+        os.makedirs(styledir)
     for s in stylelist:
         print("Copying {} to {}".format(s, styledir))
         shutil.copy2(s, os.path.join(styledir, s))
