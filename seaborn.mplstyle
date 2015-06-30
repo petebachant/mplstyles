@@ -1,5 +1,5 @@
 # Seaborn base context
-figure.figsize: (8, 5.5)
+figure.figsize: 8.0, 5.5
 axes.labelsize: 11
 axes.titlesize: 12
 xtick.labelsize: 10
