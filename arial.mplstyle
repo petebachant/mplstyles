@@ -1,10 +1,22 @@
+# This style mimics the Seaborn "white" style.
+
 axes.color_cycle: k, b, g, r, c, m, y 
 
-grid.color: 777777
+grid.color: .8
+grid.linestyle: -
+
+xtick.color: .15
+ytick.color: .15
+xtick.major.pad: 6
+
+axes.axisbelow: True
+axes.linewidth: 1.25
+axes.edgecolor: .15
 
 lines.markersize: 9
 lines.markeredgewidth: 1
 lines.linewidth: 1.2
+lines.solid_capstyle: round
 
 legend.numpoints: 1
 legend.fontsize: small
@@ -12,5 +24,4 @@ legend.frameon: False
 
 font.size: 15.0
 font.family: sans-serif
-font.sans-serif: Arial
-xtick.major.pad: 6
+font.sans-serif: Arial, Liberation Sans, sans-serif
