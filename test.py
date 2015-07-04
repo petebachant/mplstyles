@@ -5,8 +5,9 @@ import numpy as np
 import sys
 
 
-def plot(style):
-    plt.style.use("./{}.mplstyle".format(style))
+def plot(styles):
+    for style in styles:
+        plt.style.use("./{}.mplstyle".format(style))
     data = np.linspace(0, 1)
     plt.figure()
     for n in range(8):
@@ -21,8 +22,8 @@ def plot(style):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        style = sys.argv[1]
+        styles = sys.argv[1:]
     else:
-        style = "arial"
-    
-    plot(style)
+        styles = ["arial"]
+
+    plot(styles)
