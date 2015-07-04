@@ -7,7 +7,7 @@ import sys
 
 def plot(styles):
     for style in styles:
-        plt.style.use("./{}.mplstyle".format(style))
+        plt.style.use("./styles/{}.mplstyle".format(style))
     data = np.linspace(0, 1)
     plt.figure()
     for n in range(8):
