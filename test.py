@@ -15,7 +15,6 @@ def plot(styles):
     plt.xlabel("$x$-label")
     plt.ylabel("$y$-label")
     plt.title("Title $f = ma$")
-    plt.grid(True)
     plt.legend(loc="best")
     plt.show()
 
